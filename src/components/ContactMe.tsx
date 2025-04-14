@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { AiOutlineLink, AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai";
 import { FormEvent, useRef, useState, useEffect } from "react";
 import { TbBrandTelegram, TbBrandGoogleMaps } from "react-icons/tb";
 import { IoDocumentAttach } from "react-icons/io5";
