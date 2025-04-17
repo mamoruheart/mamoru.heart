@@ -134,8 +134,8 @@ export default function Projects() {
       descriptionJP: "Webアプリケーション / オンラインスタイリングサービス",
       name: "Drape Fit Inc. US",
       tech: "React, Node.js, Express, MongoDB, Redux, AWS, CakePHP, cPanel, Angular, Java Spring",
-      demo_link: "#",
-      github_link: "https://www.drapefit.com/",
+      demo_link: "https://www.drapefit.com/",
+      github_link: "https://github.com/mamoruheart/dfbox-styling-eshop",
       hover_gif_dark: "/project_gifs/dark/drapefit.jpg",
       hover_gif_light: "/project_gifs/light/drapefit.jpg"
     },

@@ -95,7 +95,7 @@ export default function Education() {
                 <p className="my-1 font-medium sm:text-xl">
                   {mounted && (theme === "dark" ? "Master of Engineering & Computer Science (MEng. CS.)" : "コンピュータサイエンスの修士")}
                 </p>
-                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "University of Belgrade" : "ベオグラード大学")}</p>
+                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "Lingnan University" : "嶺南大学")}</p>
                 {/* <p className="text-sm">GPA: 3.8</p> */}
               </div>
               <Image
