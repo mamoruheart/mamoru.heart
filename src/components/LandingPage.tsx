@@ -15,7 +15,7 @@ export default function LandingPage() {
   const linkGitHub = "https://github.com/mamoruheart";
   const linkGoogleMap = "https://www.google.com/maps/search/?api=1&query=10+Tin+King+Road%2C+Tuen+Mun%2C+New+Territories%2C+Hong+Kong";
   const linkTelegram = "https://t.me/mamuruheart/";
-  const linkWhatsapp = "https://wa.me/33780871076";
+  const linkWhatsapp = "https://wa.me/16193359946";
 
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);

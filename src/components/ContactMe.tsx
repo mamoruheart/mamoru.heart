@@ -110,8 +110,8 @@ export default function ContactMe() {
         </span>
         <span className="flex items-center pb-4">
           <AiOutlineWhatsApp className="mr-2" />
-          <Link href="https://wa.me/33780871076" rel="noreferrer" className="group transition duration-300" target="_blank">
-            +33780871076
+          <Link href="https://wa.me/16193359946" rel="noreferrer" className="group transition duration-300" target="_blank">
+            +16193359946
             <span className="block h-0.5 max-w-0 bg-black transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
           </Link>
         </span>
