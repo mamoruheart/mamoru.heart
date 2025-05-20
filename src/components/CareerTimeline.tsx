@@ -23,25 +23,25 @@ export default function CareerTimeline() {
           <div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2 lg:col-start-1 lg:col-end-3">
             <Fade left>
               <div>
-                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2022. 07 - {mounted && (theme === "dark" ? "Current" : "現在")}</p>
+                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2023. 06 - 2025. 04</p>
                 <p className="my-1 font-medium sm:text-xl">{mounted && (theme === "dark" ? "Technical Sponsor" : "技術スポンサー")}</p>
-                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "Optlynx Co.Ltd." : "株式会社オプトリンクス")}</p>
+                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "VALUEAP.JP" : "バリューアプリケーションズ株式会社")}</p>
                 <p className="text-sm font-thin">
                   {mounted &&
                     (theme === "dark"
-                      ? "Minamide has a personal close relationship with Takaya Fujikawa, CEO at Optlynx, and provides on-demand technical sponsorship in the area of web3 service development using Laravel and MERN stacks."
-                      : "南出さんは、Optlynxの代表取締役 藤川 隆也様と親密な関係を築いており、LaravelとMERNを使用したWeb3サービス開発の分野でオンデマンドの技術支援を提供しています。")}
+                      ? "Minamide has a personal close relationship with Endo Takashi, CTO at Valueap.jp, and provided on-demand technical sponsorship in the area of HIS・EIS development using Laravel and MERN stacks."
+                      : "南出さんは、Valueap.jp（バリューアプリケーションズ株式会社）のCTOである遠藤様と個人的に親交があり、HIS/EIS開発分野においてLaravelやMERNスタックを用いたオンデマンドの技術支援を行ってきました。")}
                 </p>
               </div>
               <Image
-                src="/logo_optlynx.png"
-                alt="Optlynx"
+                src="/logo_valueap.png"
+                alt="バリューアプリケーションズ株式会社"
                 width={400}
                 height={0}
                 style={{ height: "auto" }}
-                title="Optlynx"
+                title="バリューアプリケーションズ株式会社"
                 onClick={() => {
-                  window.open("http://www.optlynx.com/", "_blank");
+                  window.open("https://valueap.jp/", "_blank");
                 }}
                 className="mt-2 object-contain hover:cursor-pointer"
               />
@@ -52,22 +52,20 @@ export default function CareerTimeline() {
           <div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2 lg:col-start-3 lg:col-end-5">
             <Fade right>
               <div>
-                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2021. 11 - 2022.06</p>
-                <p className="my-1 font-medium sm:text-xl">{mounted && (theme === "dark" ? "Freelance Mobile Engineer" : "フリーランスのモバイルエンジニア")}</p>
-                <p className="my-1 text-sm font-medium">Guru.com</p>
-                <p className="text-sm font-thin">https://www.guru.com/</p>
-                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "Lancers JP" : "ランサーズ")}</p>
-                <p className="text-sm font-thin">https://www.lancers.jp/</p>
+                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2022. 01 - 2023. 05</p>
+                <p className="my-1 font-medium sm:text-xl">{mounted && (theme === "dark" ? "Software Engineer" : "ソフトウェアエンジニア")}</p>
+                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "Fora Soft" : "Fora Soft (香港, 屯門）")}</p>
+                <p className="text-sm font-thin">https://www.forasoft.com/</p>
               </div>
               <Image
-                src="/logo_lancersjp.jpg"
-                alt="ランサーズ | 日本最大級のクラウドソーシング・仕事依頼サイト"
+                src="/logo_forasoft.png"
+                alt="Fora Soft"
                 width={300}
                 height={0}
                 style={{ height: "auto" }}
-                title="ランサーズ"
+                title="Fora Soft"
                 onClick={() => {
-                  window.open("https://lancers.jp/", "_blank");
+                  window.open("https://www.forasoft.com/", "_blank");
                 }}
                 className="mt-2 object-contain hover:cursor-pointer"
               />
@@ -78,7 +76,7 @@ export default function CareerTimeline() {
           <div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2 lg:col-start-1 lg:col-end-3">
             <Fade left>
               <div>
-                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2020. 02 - 2021. 10</p>
+                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2019. 05 - 2021. 12</p>
                 <p className="my-1 font-medium sm:text-xl">{mounted && (theme === "dark" ? "Full-Stack Web Developer" : "フルスタックWeb開発者")}</p>
                 <p className="my-1 text-sm font-medium">Drape Fit Inc. US</p>
                 <p className="text-sm font-thin">
@@ -107,32 +105,27 @@ export default function CareerTimeline() {
           <div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2 lg:col-start-3 lg:col-end-5">
             <Fade right>
               <div>
-                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2018. 03 - 2020. 01</p>
-                <p className="my-1 font-medium sm:text-xl">{mounted && (theme === "dark" ? "Web & Mobile Developer" : "ウェブ・モバイル開発者")}</p>
-                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "VALUE APPLICATIONS JP" : "株式会社バリューアプリケーションズ")}</p>
-                <p className="text-sm font-thin">
-                  {mounted &&
-                    (theme === "dark"
-                      ? "Minamide was involved in developing and launching the production versions of Kindy web & mobile applications using MEAN and Ionic Framework to support connecting nurseries and parents in childcare management fields across Tokyo and Japan."
-                      : "南出さんは、東京と日本各地の保育管理分野で保育園と保護者をつなぐサポートをするために、MEANとIonic Frameworkを使用してKindy Webおよびモバイルアプリの製品版の開発とリリースに携わりました。")}
-                </p>
+                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2016. 05 - 2019. 04</p>
+                <p className="my-1 font-medium sm:text-xl">{mounted && (theme === "dark" ? "Web Developer" : "ウェブ開発者")}</p>
+                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "BOCHK" : "屯門中銀理財中心")}</p>
+                <p className="text-sm font-thin">https://www.bochk.com/en/home.html</p>
               </div>
               <Image
-                src="/logo_kindy_app.webp"
-                alt="Kindy JP"
+                src="/logo_bochk.png"
+                alt="BOCHK"
                 width={300}
                 height={0}
                 style={{ height: "auto" }}
-                title="「Kindy」アプリ"
+                title="BOCHK"
                 onClick={() => {
-                  window.open("https://kindy-app.jp/", "_blank");
+                  window.open("https://www.bochk.com/", "_blank");
                 }}
                 className="mt-2 object-contain hover:cursor-pointer"
               />
             </Fade>
           </div>
         </div>
-        <div className="mx-0 grid grid-cols-1 sm:grid-cols-2 md:mx-5 lg:grid-cols-4">
+        {/* <div className="mx-0 grid grid-cols-1 sm:grid-cols-2 md:mx-5 lg:grid-cols-4">
           <div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2 lg:col-start-1 lg:col-end-3">
             <Fade left>
               <div>
@@ -160,7 +153,7 @@ export default function CareerTimeline() {
               />
             </Fade>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
