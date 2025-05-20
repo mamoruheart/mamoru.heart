@@ -13,8 +13,8 @@ const validateEmail = (email: string) => {
 };
 
 export default function ContactMe() {
-  const resumeLink = "https://drive.google.com/file/d/1oDVDtIcLEyBuJ39dJkF5e7fK9jEl1_uN/view?usp=drive_link";
-  const resumeLinkJP = "https://drive.google.com/file/d/1oDVDtIcLEyBuJ39dJkF5e7fK9jEl1_uN/view?usp=drive_link";
+  const resumeLink = "https://drive.google.com/file/d/1Wz7VS-lHOrsu81D5LoynPfILU1mlQVHp/view?usp=drive_link";
+  const resumeLinkJP = "https://drive.google.com/file/d/1Wz7VS-lHOrsu81D5LoynPfILU1mlQVHp/view?usp=drive_link";
 
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);

@@ -11,7 +11,7 @@ export default function LandingPage() {
     "Experienced in the dynamic world of Web and Software Engineering, Minamide is a seasoned full-stack software engineer ready to bring your projects to live dreams. With a passion for innovations and a knack for professional solutions, he is living in the fast-paced world of competition with you.";
   const line1JP =
     "JavaScript、PHP、Pythonの経験豊富なシニア開発者として、あなたのプロジェクトを実現する準備ができています。イノベーションへの情熱と問題解決の才能を持ち、競争の激しい世界であなたと一緒に成長していきたいと考えています。";
-  const linkResume = "https://drive.google.com/file/d/1oDVDtIcLEyBuJ39dJkF5e7fK9jEl1_uN/view?usp=drive_link";
+  const linkResume = "https://drive.google.com/file/d/1Wz7VS-lHOrsu81D5LoynPfILU1mlQVHp/view?usp=drive_link";
   const linkGitHub = "https://github.com/mamoruheart";
   const linkGoogleMap = "https://www.google.com/maps/search/?api=1&query=10+Tin+King+Road%2C+Tuen+Mun%2C+New+Territories%2C+Hong+Kong";
   const linkTelegram = "https://t.me/mamuruheart/";
