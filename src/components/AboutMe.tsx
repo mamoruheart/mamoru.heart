@@ -8,7 +8,7 @@ export default function AboutMe() {
   const detail1 =
     "Experienced in the dynamic world of Web and Software Engineering, Minamide is a seasoned full-stack software engineer ready to bring your projects to live dreams. With a passion for innovations and a knack for professional solutions, he is living in the fast-paced world of competition with you.";
   const detail2 = "Do not hesitate to contact Minamide Hajime to create something totally new successful together!";
-  const detailJP_1 = "初めまして。フリーランスソフトウェアエンジニアの南出と申します。香港（Hong Kong SAR）に在住しています。";
+  const detailJP_1 = "初めまして。フリーランスソフトウェアエンジニアの南出と申します。沖縄県那覇市に在住しています。";
   const detailJP_2 =
     "JavaScript、PHP、Pythonの経験豊富なシニア開発者として、あなたのプロジェクトを実現する準備ができています。イノベーションへの情熱と問題解決の才能を持ち、競争の激しい世界であなたと一緒に成長していきたいと考えています。共に素晴らしいものを創り上げましょう！";
   const detailJP_3 =

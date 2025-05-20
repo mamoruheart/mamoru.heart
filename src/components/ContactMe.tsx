@@ -85,12 +85,12 @@ export default function ContactMe() {
         <span className="flex items-center pb-4">
           <TbBrandGoogleMaps className="mr-2" />
           <Link
-            href="https://www.google.com/maps/search/?api=1&query=10+Tin+King+Road%2C+Tuen+Mun%2C+New+Territories%2C+Hong+Kong"
+            href="https://www.google.com/maps/search/?api=1&query=%E6%B2%96%E7%B8%84%E7%9C%8C%E9%82%A3%E8%A6%87%E5%B8%82%E5%AE%87%E6%A0%84%E5%8E%9F1%E4%B8%81%E7%9B%AE12-3+%E3%82%B5%E3%83%B3%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3202%E5%8F%B7%E5%AE%A4"
             className="group transition duration-300"
             rel="noreferrer"
             target="_blank"
           >
-            {mounted && (theme === "dark" ? "10 Tin King Road, Tuen Mun, New Territories, Hong Kong" : "中国香港 新界 屯門 田景路10号")}
+            {mounted && (theme === "dark" ? "Block 1, Uebaru District, Naha City, Okinawa" : "沖縄県那覇市宇栄原1丁目12-3")}
             <span className="block h-0.5 max-w-0 bg-black transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
           </Link>
         </span>
