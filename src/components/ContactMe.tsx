@@ -1,4 +1,4 @@
-import { AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineWhatsApp, AiOutlineMail, AiOutlineLinkedin } from "react-icons/ai";
 import { FormEvent, useRef, useState, useEffect } from "react";
 import { TbBrandTelegram, TbBrandGoogleMaps } from "react-icons/tb";
 import { IoDocumentAttach } from "react-icons/io5";
@@ -91,6 +91,18 @@ export default function ContactMe() {
             target="_blank"
           >
             {mounted && (theme === "dark" ? "Block 1, Uebaru District, Naha City, Okinawa" : "沖縄県那覇市宇栄原1丁目12-3")}
+            <span className="block h-0.5 max-w-0 bg-black transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
+          </Link>
+        </span>
+        <span className="flex items-center pb-4">
+          <AiOutlineLinkedin className="mr-2" />
+          <Link
+            href="https://www.linkedin.com/in/hajime-minamide-977572367/"
+            className="group transition duration-300"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {mounted && (theme === "dark" ? "LinkedIn Profile" : "LinkedInプロフィール")}
             <span className="block h-0.5 max-w-0 bg-black transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
           </Link>
         </span>
