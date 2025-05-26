@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
+import { TbBrandGithub } from "react-icons/tb";
 import Fade from "react-reveal/Fade";
 import { useTheme } from "next-themes";
 import { Element } from "react-scroll";
@@ -16,6 +17,7 @@ interface Project {
   tech: string;
   demo_link: string;
   github_link: string;
+  is_github_private: boolean;
   hover_gif_dark: string;
   hover_gif_light: string;
 }
@@ -58,6 +60,7 @@ export default function Projects() {
       tech: "React Native, Expo, BluetoothLE, react-native-ble-plx",
       demo_link: "#",
       github_link: "https://thinmotion.com/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/thinmotion.png",
       hover_gif_light: "/project_gifs/light/thinmotion.png"
     },
@@ -71,6 +74,7 @@ export default function Projects() {
       tech: "Flutter, React, Next.js, Typescript, Firebase",
       demo_link: "https://5cmp.app.link/cbuMSzXxxLb?%7Etags=path%3A%2F&%7Etags=action%3Akeyvisual&%24desktop_url=https%3A%2F%2Fapps.apple.com%2Fjp%2Fapp%2Fid1106261604",
       github_link: "https://clinics-app.com/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/clinics.jpg",
       hover_gif_light: "/project_gifs/light/clinics.jpg"
     },
@@ -83,7 +87,8 @@ export default function Projects() {
       name: "FrogQuest - Best Photo Scavenger Hunts for Team Building",
       tech: "React Native, Expo, GraphQL, Camera Social App",
       demo_link: "https://itunes.apple.com/us/app/frogquest-photo-scavenger-hunt/id1399123814?mt=8",
-      github_link: "https://frogquest.com/",
+      github_link: "https://github.com/mamoruheart/frogquest-rn-app",
+      is_github_private: true,
       hover_gif_dark: "/project_gifs/dark/frogquest.png",
       hover_gif_light: "/project_gifs/light/frogquest.png"
     },
@@ -97,6 +102,7 @@ export default function Projects() {
       tech: "Ruby on Rails, Coffee Script, PostgreSQL, PHP, WordPress, Google Maps",
       demo_link: "#",
       github_link: "https://kaguaruoo.com/en",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/kaguaruoo.jpg",
       hover_gif_light: "/project_gifs/light/kaguaruoo.jpg"
     },
@@ -110,6 +116,7 @@ export default function Projects() {
       tech: "React-Native, PHP, WordPress, jQuery, Mobile App Development, Payment Gateway Integration",
       demo_link: "https://apps.apple.com/au/app/my-school-connect/id1136583371",
       github_link: "https://myschoolconnect.com.au/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/myschoolconnect.png",
       hover_gif_light: "/project_gifs/light/myschoolconnect.jpg"
     },
@@ -123,6 +130,7 @@ export default function Projects() {
       tech: "Angular, Ionic Framework, React, Node.js, LoopBack, MongoDB, AWS, GitHub CI/CD, NewRelic",
       demo_link: "https://apkcombo.com/kindy/kindy.valueap.jp/",
       github_link: "https://kindy-app.jp/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/kindy.jpg",
       hover_gif_light: "/project_gifs/light/kindy.jpg"
     },
@@ -136,6 +144,7 @@ export default function Projects() {
       tech: "React, Node.js, Express, MongoDB, Redux, AWS, CakePHP, cPanel, Angular, Java Spring",
       demo_link: "https://www.drapefit.com/",
       github_link: "https://github.com/mamoruheart/dfbox-styling-eshop",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/drapefit.jpg",
       hover_gif_light: "/project_gifs/light/drapefit.jpg"
     },
@@ -149,6 +158,7 @@ export default function Projects() {
       tech: "Ionic, Angular, Capacitor, Android, iOS, Social App",
       demo_link: "https://play.google.com/store/apps/details?id=io.portal420.app&hl=en_US",
       github_link: "https://420portal.com/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/420portal_app.png",
       hover_gif_light: "/project_gifs/light/420portal_app.png"
     },
@@ -162,6 +172,7 @@ export default function Projects() {
       tech: "React Native, LeafMap, Uber, Rider, Driver, GeoLocation, iOS, Android",
       demo_link: "https://apps.apple.com/us/app/turvy-driver/id6444149465?platform=iphone",
       github_link: "https://turvy.net/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/turvy.png",
       hover_gif_light: "/project_gifs/light/turvy.png"
     },
@@ -175,6 +186,7 @@ export default function Projects() {
       tech: "Next.js, Express, GraphQL, PostgreSQL, Docker, Algolia",
       demo_link: "#",
       github_link: "https://www.spoken.io/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/spoken.jpg",
       hover_gif_light: "/project_gifs/light/spoken.jpg"
     },
@@ -188,6 +200,7 @@ export default function Projects() {
     //   tech: "React, Web3, Ether.js, GraphQL, MetaMask, Wallet, NFT, ABI",
     //   demo_link: "#",
     //   github_link: "https://ape-world-marketplace.vercel.app/",
+    //   is_github_private: false,
     //   hover_gif_dark: "/project_gifs/dark/ape.jpg",
     //   hover_gif_light: "/project_gifs/light/ape.jpg",
     // },
@@ -201,6 +214,7 @@ export default function Projects() {
       tech: "Vue, Express, Node.js, Typescript, MySQL, TailwindCSS, Docker",
       demo_link: "https://health-care-plus.vercel.app/",
       github_link: "https://github.com/mamoruheart/medical-clinic-mevn",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/healthcare.jpg",
       hover_gif_light: "/project_gifs/light/healthcare.jpg"
     },
@@ -214,6 +228,7 @@ export default function Projects() {
       tech: "Python, Scrapy, Selenium, ASIN, CSV, Amazon",
       demo_link: "https://www.amazon.com/E-Commerce/",
       github_link: "https://github.com/mamoruheart/amazon-ecommerce-py-scraper",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/pyscraping.jpg",
       hover_gif_light: "/project_gifs/light/pyscraping.jpg"
     },
@@ -227,6 +242,7 @@ export default function Projects() {
     //   tech: "Angular, TypeScript, WordPress, Cloudflare",
     //   demo_link: "#",
     //   github_link: "https://www.runnerschoolitalia.com/",
+    //   is_github_private: false,
     //   hover_gif_dark: "/project_gifs/dark/runners.jpg",
     //   hover_gif_light: "/project_gifs/light/runners.jpg",
     // },
@@ -240,6 +256,7 @@ export default function Projects() {
       tech: "AngularJS, JavaScript, jQuery, Trello, RWD, PWA, Cloudflare, reCAPTCHA",
       demo_link: "#",
       github_link: "https://stakone.com.au/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/stakoneau.png",
       hover_gif_light: "/project_gifs/light/stakoneau.png"
     },
@@ -253,6 +270,7 @@ export default function Projects() {
       tech: "React, Next.js, TailwindCSS, AWS, reCAPTCHA, Node.js, GraphQL",
       demo_link: "#",
       github_link: "https://www.t-mobile.pl/",
+      is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/tmobile.png",
       hover_gif_light: "/project_gifs/light/tmobile.png"
     }
@@ -320,9 +338,24 @@ export default function Projects() {
                         {project.demo_link === "#" ? "" : "Visit"}
                         <span className="block h-[1px] max-w-0 bg-gray-700 transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
                       </Link>
-                      <Link href={project.github_link} rel="noreferrer" title={project.github_link.includes("github.com") ? "GitHub" : "Website"} target="_blank">
+                      <Link
+                        href={project.github_link}
+                        rel="noreferrer"
+                        title={
+                          project.github_link.includes("github.com")
+                            ? project.is_github_private
+                              ? "GitHub (Private)"
+                              : "GitHub"
+                            : "Website"
+                        }
+                        target="_blank"
+                      >
                         {project.github_link.includes("github.com") ? (
-                          <AiFillGithub className="inline-block text-4xl text-black transition delay-75 ease-in-out hover:scale-125 dark:text-white" />
+                          project.is_github_private ? (
+                            <AiFillGithub className="inline-block text-4xl text-black transition delay-75 ease-in-out hover:scale-125 dark:text-white" />
+                          ) : (
+                            <TbBrandGithub className="inline-block text-4xl text-black transition delay-75 ease-in-out hover:scale-125 dark:text-white" />
+                          )
                         ) : (
                           <AiOutlineLink className="inline-block text-4xl text-black transition delay-75 ease-in-out hover:scale-125 dark:text-white" />
                         )}
