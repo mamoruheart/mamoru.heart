@@ -100,9 +100,9 @@ export default function Projects() {
       descriptionJP: "Webアプリケーション / 不動産・AirBnb",
       name: "KagoAruoo JP",
       tech: "Ruby on Rails, Coffee Script, PostgreSQL, PHP, WordPress, Google Maps",
-      demo_link: "#",
-      github_link: "https://kaguaruoo.com/en",
-      is_github_private: false,
+      demo_link: "https://kaguaruoo.com/jp",
+      github_link: "https://github.com/mamoruheart/kaguaruoo-airbnb-ror",
+      is_github_private: true,
       hover_gif_dark: "/project_gifs/dark/kaguaruoo.jpg",
       hover_gif_light: "/project_gifs/light/kaguaruoo.jpg"
     },
