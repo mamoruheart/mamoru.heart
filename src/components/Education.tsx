@@ -91,11 +91,11 @@ export default function Education() {
           <div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2">
             <Fade left>
               <div>
-                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2010. 04 - 2014. 02 </p>
+                <p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2012. 04 - 2016. 03 </p>
                 <p className="my-1 font-medium sm:text-xl">
                   {mounted && (theme === "dark" ? "Master of Engineering & Computer Science (MEng. CS.)" : "コンピュータサイエンスの修士")}
                 </p>
-                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "Lingnan University" : "嶺南大学")}</p>
+                <p className="my-1 text-sm font-medium">{mounted && (theme === "dark" ? "Lingnan University, Hong Kong" : "嶺南大学")}</p>
                 {/* <p className="text-sm">GPA: 3.8</p> */}
               </div>
               <Image
