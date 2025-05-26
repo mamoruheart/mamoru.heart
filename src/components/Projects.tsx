@@ -71,10 +71,10 @@ export default function Projects() {
       description: "Mobile Application - Health & Medical Care",
       descriptionJP: "Mobileアプリ / ヘルス・メディカルケア",
       name: "CLINICS（クリニクス） JP",
-      tech: "Flutter, React, Next.js, Typescript, Firebase",
+      tech: "Flutter, Vue, Express, Typescript, Firebase",
       demo_link: "https://5cmp.app.link/cbuMSzXxxLb?%7Etags=path%3A%2F&%7Etags=action%3Akeyvisual&%24desktop_url=https%3A%2F%2Fapps.apple.com%2Fjp%2Fapp%2Fid1106261604",
-      github_link: "https://clinics-app.com/",
-      is_github_private: false,
+      github_link: "https://github.com/mamoruheart/clinics_jp_medical",
+      is_github_private: true,
       hover_gif_dark: "/project_gifs/dark/clinics.jpg",
       hover_gif_light: "/project_gifs/light/clinics.jpg"
     },
