@@ -6,6 +6,7 @@ Mamoru Heart's personal website | 南出さんの個人サイト
 
 ```yaml
 node.js: ^18.20.7
+npm: 10.8.2
 yarn: 1.22.22
 
 next.js: 14.1.4

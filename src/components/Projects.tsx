@@ -226,8 +226,8 @@ export default function Projects() {
       descriptionJP: "Webスクレイピング / Python・Selenium",
       name: "Amazon eCommerce Scraper",
       tech: "Python, Scrapy, Selenium, ASIN, CSV, Amazon",
-      demo_link: "https://www.amazon.com/E-Commerce/",
-      github_link: "https://github.com/mamoruheart/amazon-ecommerce-py-scraper",
+      demo_link: "#",
+      github_link: "https://github.com/mamoruheart/amazon-scrape-hero",
       is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/pyscraping.jpg",
       hover_gif_light: "/project_gifs/light/pyscraping.jpg"
@@ -341,13 +341,7 @@ export default function Projects() {
                       <Link
                         href={project.github_link}
                         rel="noreferrer"
-                        title={
-                          project.github_link.includes("github.com")
-                            ? project.is_github_private
-                              ? "GitHub (Private)"
-                              : "GitHub"
-                            : "Website"
-                        }
+                        title={project.github_link.includes("github.com") ? (project.is_github_private ? "GitHub (Private)" : "GitHub") : "Website"}
                         target="_blank"
                       >
                         {project.github_link.includes("github.com") ? (
