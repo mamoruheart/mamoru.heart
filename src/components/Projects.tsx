@@ -58,9 +58,9 @@ export default function Projects() {
       descriptionJP: "React Native / iOS・Androidアプリ",
       name: "THIN MOTION - ESP32 BLE Turntable devices managing app",
       tech: "React Native, Expo, BluetoothLE, react-native-ble-plx",
-      demo_link: "#",
-      github_link: "https://thinmotion.com/",
-      is_github_private: false,
+      demo_link: "https://thinmotion.com/",
+      github_link: "https://github.com/mamoruheart/thinmotion-expo-ble",
+      is_github_private: true,
       hover_gif_dark: "/project_gifs/dark/thinmotion.png",
       hover_gif_light: "/project_gifs/light/thinmotion.png"
     },
