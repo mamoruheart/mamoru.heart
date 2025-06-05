@@ -190,20 +190,6 @@ export default function Projects() {
       hover_gif_dark: "/project_gifs/dark/spoken.jpg",
       hover_gif_light: "/project_gifs/light/spoken.jpg"
     },
-    // {
-    //   index: 7,
-    //   image: "/project_thumbnails/light/ape.jpg",
-    //   image_dark: "/project_thumbnails/dark/ape.jpg",
-    //   description: "Web3 Marketplace - NFT Wallet",
-    //   descriptionJP: "Web3マーケットプレイス / NFTウォレット",
-    //   name: "ApeWorld WOV Marketplace",
-    //   tech: "React, Web3, Ether.js, GraphQL, MetaMask, Wallet, NFT, ABI",
-    //   demo_link: "#",
-    //   github_link: "https://ape-world-marketplace.vercel.app/",
-    //   is_github_private: false,
-    //   hover_gif_dark: "/project_gifs/dark/ape.jpg",
-    //   hover_gif_light: "/project_gifs/light/ape.jpg",
-    // },
     {
       index: 10,
       image: "/project_thumbnails/light/healthcare.jpg",
@@ -232,20 +218,6 @@ export default function Projects() {
       hover_gif_dark: "/project_gifs/dark/pyscraping.jpg",
       hover_gif_light: "/project_gifs/light/pyscraping.jpg"
     },
-    // {
-    //   index: 11,
-    //   image: "/project_thumbnails/light/runners.jpg",
-    //   image_dark: "/project_thumbnails/dark/runners.jpg",
-    //   description: "Web Application - Sports",
-    //   descriptionJP: "Webアプリケーション / Sports",
-    //   name: "Runners School Italia",
-    //   tech: "Angular, TypeScript, WordPress, Cloudflare",
-    //   demo_link: "#",
-    //   github_link: "https://www.runnerschoolitalia.com/",
-    //   is_github_private: false,
-    //   hover_gif_dark: "/project_gifs/dark/runners.jpg",
-    //   hover_gif_light: "/project_gifs/light/runners.jpg",
-    // },
     {
       index: 12,
       image: "/project_thumbnails/light/stakoneau.png",
@@ -273,6 +245,20 @@ export default function Projects() {
       is_github_private: false,
       hover_gif_dark: "/project_gifs/dark/tmobile.png",
       hover_gif_light: "/project_gifs/light/tmobile.png"
+    },
+    {
+      index: 14,
+      image: "/project_thumbnails/light/bitmix.png",
+      image_dark: "/project_thumbnails/dark/bitmix.png",
+      description: "Website - Landing Page",
+      descriptionJP: "ウェブサイト / LPサイト",
+      name: "Forex & Crypto Trading Online | FX Markets | Cryptocurrencies, Spot Metals & CFDs | XBTFX",
+      tech: "PHP, WordPress, Page Builder, Divi, jQuery, Cloudflare",
+      demo_link: "https://xbtfx.io/",
+      github_link: "https://github.com/mamoruheart/bitmix",
+      is_github_private: true,
+      hover_gif_dark: "/project_gifs/dark/bitmix.png",
+      hover_gif_light: "/project_gifs/light/bitmix.png"
     }
   ];
 

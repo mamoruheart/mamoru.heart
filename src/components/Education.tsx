@@ -68,14 +68,14 @@ export default function Education() {
   //   },
   //   {
   //     index: 2,
-  //     image: "/project_thumbnails/light/denn_phuket.jpg",
-  //     image_dark: "/project_thumbnails/dark/denn_phuket.jpg",
+  //     image: "/project_thumbnails/light/boris_m.jpg",
+  //     image_dark: "/project_thumbnails/dark/boris_m.jpg",
   //     name: "Work Remote",
   //     nameJP: "在宅勤務",
   //     degree: "Mueang Phuket District, Phuket 83000, Thailand",
   //     degreeJP: "タイ、プーケット、83000",
-  //     hover_gif_dark: "/project_gifs/dark/denn_phuket.png",
-  //     hover_gif_light: "/project_gifs/light/denn_phuket.png",
+  //     hover_gif_dark: "/project_gifs/dark/boris_m.png",
+  //     hover_gif_light: "/project_gifs/light/boris_m.png",
   //   },
   // ];
 
