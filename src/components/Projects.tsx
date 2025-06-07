@@ -52,6 +52,20 @@ export default function Projects() {
   const projects: Project[] = [
     {
       index: 0,
+      image: "/project_thumbnails/light/ipaynow.png",
+      image_dark: "/project_thumbnails/dark/ipaynow.png",
+      description: "Web3 Application - NFT, TON, Wallet",
+      descriptionJP: "Web3アプリ / NFT、TON、ウォレット",
+      name: "IPAYNOW.IO - Live Gaming ANIMAL FARM",
+      tech: "React, Express, Node.js, Mongoose, NFT, Web3.js, Solidity, Telegram",
+      demo_link: "https://ipaynow.io/",
+      github_link: "https://github.com/mamoruheart/node-ton-backend-ipaynow-io",
+      is_github_private: true,
+      hover_gif_dark: "/project_gifs/dark/ipaynow.png",
+      hover_gif_light: "/project_gifs/light/ipaynow.png"
+    },
+    {
+      index: 1,
       image: "/project_thumbnails/light/thinmotion.png",
       image_dark: "/project_thumbnails/dark/thinmotion.png",
       description: "React Native - iOS/Android",
@@ -65,7 +79,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/thinmotion.png"
     },
     {
-      index: 1,
+      index: 2,
       image: "/project_thumbnails/light/clinics.jpg",
       image_dark: "/project_thumbnails/dark/clinics.jpg",
       description: "Mobile Application - Health & Medical Care",
@@ -79,7 +93,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/clinics.jpg"
     },
     {
-      index: 2,
+      index: 3,
       image: "/project_thumbnails/light/frogquest.png",
       image_dark: "/project_thumbnails/dark/frogquest.png",
       description: "React Native - iOS/Android",
@@ -93,7 +107,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/frogquest.png"
     },
     {
-      index: 3,
+      index: 4,
       image: "/project_thumbnails/light/kaguaruoo.jpg",
       image_dark: "/project_thumbnails/dark/kaguaruoo.jpg",
       description: "Web Application - Real Estate, AirBnb",
@@ -107,7 +121,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/kaguaruoo.jpg"
     },
     {
-      index: 4,
+      index: 5,
       image: "/project_thumbnails/light/myschoolconnect.jpg",
       image_dark: "/project_thumbnails/dark/myschoolconnect.png",
       description: "React Native - iOS/Android",
@@ -121,7 +135,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/myschoolconnect.jpg"
     },
     {
-      index: 5,
+      index: 6,
       image: "/project_thumbnails/light/kindy.jpg",
       image_dark: "/project_thumbnails/dark/kindy.jpg",
       description: "Angular & Ionic Framework - Web & Mobile",
@@ -135,7 +149,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/kindy.jpg"
     },
     {
-      index: 6,
+      index: 7,
       image: "/project_thumbnails/light/drapefit.jpg",
       image_dark: "/project_thumbnails/dark/drapefit.jpg",
       description: "Web Application - Online Styling Service",
@@ -149,7 +163,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/drapefit.jpg"
     },
     {
-      index: 7,
+      index: 8,
       image: "/project_thumbnails/light/420portal_app.png",
       image_dark: "/project_thumbnails/dark/420portal_app.png",
       description: "Angular & Ionic Framework - Mobile App",
@@ -163,7 +177,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/420portal_app.png"
     },
     {
-      index: 8,
+      index: 9,
       image: "/project_thumbnails/light/turvy.png",
       image_dark: "/project_thumbnails/dark/turvy.png",
       description: "React Native - Uber Mobile App",
@@ -177,7 +191,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/turvy.png"
     },
     {
-      index: 9,
+      index: 10,
       image: "/project_thumbnails/light/spoken.jpg",
       image_dark: "/project_thumbnails/dark/spoken.jpg",
       description: "Web Application - eCommerce",
@@ -191,7 +205,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/spoken.jpg"
     },
     {
-      index: 10,
+      index: 11,
       image: "/project_thumbnails/light/healthcare.jpg",
       image_dark: "/project_thumbnails/dark/healthcare.jpg",
       description: "Web Application - Medical Care",
@@ -205,7 +219,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/healthcare.jpg"
     },
     {
-      index: 11,
+      index: 12,
       image: "/project_thumbnails/light/pyscraping.jpg",
       image_dark: "/project_thumbnails/dark/pyscraping.jpg",
       description: "Web Scraping - Python Selenium",
@@ -219,7 +233,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/pyscraping.jpg"
     },
     {
-      index: 12,
+      index: 13,
       image: "/project_thumbnails/light/stakoneau.png",
       image_dark: "/project_thumbnails/dark/stakoneau.png",
       description: "Web Application - Agile Task Management",
@@ -233,7 +247,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/stakoneau.png"
     },
     {
-      index: 13,
+      index: 14,
       image: "/project_thumbnails/light/tmobile.png",
       image_dark: "/project_thumbnails/dark/tmobile.png",
       description: "Web Application - eCommerce",
@@ -247,7 +261,7 @@ export default function Projects() {
       hover_gif_light: "/project_gifs/light/tmobile.png"
     },
     {
-      index: 14,
+      index: 15,
       image: "/project_thumbnails/light/bitmix.png",
       image_dark: "/project_thumbnails/dark/bitmix.png",
       description: "Website - Landing Page",
